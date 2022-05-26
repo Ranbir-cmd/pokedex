@@ -1,0 +1,16 @@
+.pokecard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 150px;
+  flex-grow: 1;
+  background-color: #f6d743;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.pokecard:hover {
+  transform: scale(1.05);
+}
